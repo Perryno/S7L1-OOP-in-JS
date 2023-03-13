@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #container {
+        display: block;
+      }
+      p {
+        display: inline;
+      }
+      div {
+        margin: 6px 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Come sono i tuoi animali</h1>
+
+    <div>
+      <p>Nome animale</p>
+      <input id="nomeAnimale" type="text" />
+    </div>
+    <div>
+      <p>Nome compratore</p>
+      <input id="nomeCompratore" type="text" />
+    </div>
+    <div>
+      <p>Specie animale</p>
+      <input id="specieAnimale" type="text" />
+    </div>
+    <div>
+      <p>Razza</p>
+      <input id="razza" type="text" />
+    </div>
+    <button onclick="creaOggetto()">Crea oggetto JSON</button>
+
+    <p id="container"></p>
+    <script src="form.js"></script>
+  </body>
+</html>
